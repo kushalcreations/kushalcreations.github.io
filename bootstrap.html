@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Kushal's website!</title>
+    <style>
+        .progress {
+            background-color: red;
+            height: 7px;
+            animation: load 1s ease-in-out 1;
+        }
+
+        @keyframes load {
+            0% {
+                width: 0;
+            }
+
+            50% {
+                width: 50vw;
+            }
+
+            100% {
+                width: 100vw;
+            }
+        }
+
+        #lol {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: 'Pattaya', sans-serif;
+            position: static;
+            bottom: 0;
+            margin-top: 50px;
+            width: 100%;
+            font-size: 25px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="progress"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="lisense.txt">Kushal Creations</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="bootstrap.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="about.html">Future Plans</a></li>
+                            <li><a class="dropdown-item" href="about.html">What is Software</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="sign up.html">support</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <a href="sign up.html" class="btn btn-primary active" role="button" data-bs-toggle="button"
+                    aria-pressed="true">Sign In</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1400x400/?laptop" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Welcome to Kushal's website</h2>
+                    <p>Technology News, Development and Trends.</p>
+                    <button class="btn btn-danger">Technology</button>
+                    <button class="btn btn-success">Coding</button>
+                    <button class="btn btn-primary">Spcial</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1400x400/?computer,RGB" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>See More About Me</h5>
+                    <p>See Your Latest News.</p>
+                    <button class="btn btn-danger">Technology</button>
+                    <button class="btn btn-success">Coding</button>
+                    <button class="btn btn-primary">Spcial</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1400x400/?HTML5,Coading" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Hello User I Am Kushal Creations</h5>
+                    <p>Go And Support Us .</p>
+                    <button class="btn btn-danger">Technology</button>
+                    <button class="btn btn-success">Coding</button>
+                    <button class="btn btn-primary">Spcial</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container my-4">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">Programming</strong>
+                        <h3 class="mb-0">What is Coding</h3>
+                        <div class="mb-1 text-muted">May 24</div>
+                        <p class="card-text mb-auto">coding?
+                            I'm sure you've come across the hype surrounding coding, and by now, know that it is related
+                            to processing and building up the information that runs our computer and artificial
+                            intelligence aided gadgets.Coding, in simpler terms, is the language used by computers to
+                            understand our commands and, therefore, process our requests. Programming is a list of codes
+                            arranged in a sequence that results in the completion of work.</p>
+                        <a href="https://hackr.io/blog/what-is-coding-used-for" class="stretched-link">Continue
+                            reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="img-fluid" src="https://source.unsplash.com/1400x400/?coading" class="d-block w-100"
+                            alt="error">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">Software</strong>
+                        <h3 class="mb-0">What is Software</h3>
+                        <div class="mb-1 text-muted">May 24</div>
+                        <p class="mb-auto">Software,
+                            instructions that tell a computer what to do. Software comprises the entire set of programs,
+                            procedures, and routines associated with the operation of a computer system. The term was
+                            coined to differentiate these instructions from hardware—i.e., the physical components of a
+                            computer system. A set of instructions that directs a computer’s hardware to perform a task
+                            is called a program, or software program.</p>
+                        <a href="https://www.britannica.com/technology/software" class="stretched-link">Continue
+                            reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="img-fluid" src="https://source.unsplash.com/1400x400/?software"
+                            class="d-block w-100" alt="error">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">Technology</strong>
+                        <h3 class="mb-0">What is Technology</h3>
+                        <div class="mb-1 text-muted">May 24</div>
+                        <p class="card-text mb-auto">Technology is the sum of techniques, skills, methods, and processes
+                            used in the production of goods or services or in the accomplishment of objectives, such as
+                            scientific investigation. Technology can be the knowledge of techniques, processes, and the
+                            like, or it can be embedded in machines to allow for operation without detailed knowledge of
+                            their workings. Systems (e.g. machines) applying technology by taking an input, changing it
+                            according to the system's use, and then producing an outcome are referred to as technology
+                            systems or technological systems..</p>
+                        <a href="https://en.wikipedia.org/wiki/Technology" class="stretched-link">Continue
+                            reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="img-fluid" src="https://source.unsplash.com/1400x400/?Tech" class="d-block w-100"
+                            alt="error">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">Bitcoin</strong>
+                        <h3 class="mb-0">What is Bitcoin</h3>
+                        <div class="mb-1 text-muted">May 24</div>
+                        <p class="mb-auto"> invented in 2008 by an unknown person or group of people using the name
+                            Satoshi Nakamoto.The currency began use in 2009 when its implementation was released as
+                            open-source software.Bitcoin is a decentralized digital currency, without a central bank or
+                            single administrator, that can be sent from user to user on the peer-to-peer bitcoin network
+                            without the need for intermediaries.Transactions are verified by network nodes through
+                            cryptography and recorded in a public distributed ledger called a blockchain..</p>
+                        <a href="https://en.wikipedia.org/wiki/Bitcoin" class="stretched-link">Continue
+                            reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="img-fluid" src="https://source.unsplash.com/1400x400/?dogecoin,Bitcoin"
+                            class="d-block w-100" alt="error">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="lol">
+        <p>copyright &copy; 2021 .All Right Reserved.</p>
+    </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

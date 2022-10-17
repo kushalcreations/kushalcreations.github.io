@@ -1,6 +1,6 @@
-kushal creations License
+Kushal Creations License
 
-Copyright (c) 2021 Kushal Creations
+Copyright (c) 2022 Kushal Creations
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this Website and associated documentation files (the "Website"), to deal

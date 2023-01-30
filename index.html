@@ -268,7 +268,26 @@
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
     
+    <script>
+        // Get the form and input elements
+        const form = document.querySelector("d-flex");
+        const input = document.querySelector("form-control me-2");
 
+        // Handle form submit event
+        form.addEventListener("submit", function(event) {
+            event.preventDefault(); // prevent default form submission
+
+        // Get the value entered in the input
+        const searchValue = input.value;
+
+        // Perform the search with the searchValue
+        // This can be an API call to fetch search results, or a function to search through local data
+        // ...
+
+        // Display the search results
+        // ...
+        });
+    </script>
 </body>
 
 </html>

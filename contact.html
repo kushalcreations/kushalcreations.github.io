@@ -161,5 +161,35 @@
     crossorigin="anonymous"></script>
 
 </body>
+  <script>
+    // Variables to store form inputs
+    var name = document.getElementById("Full Name").value;
+    var email = document.getElementById("Email").value;
+    var Query = document.getElementById("Any Query").value;
+    var suggestion = document.getElementById("suggestion").value;
 
+    // Function to submit the form data
+    function sendData() 
+    {
+      // Code to send an email using JavaScript (with a library such as email.js)
+      emailjs.send("kushal.kumawat987@gmail.com", {
+        "from_name": name,
+        "from_email": email,
+        "message_html": Query,
+        "message_suggestion": suggestion
+        });
+
+      // Reset form inputs
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("message").value = "";
+
+      // Show a success message
+      alert("Your message has been sent!");
+    }
+
+    // Attach the `sendData` function to the form submit button
+    document.getElementById("submit-btn").addEventListener("click", sendData);
+
+  </script>
 </html>
